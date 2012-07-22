@@ -21,7 +21,7 @@ from pycommando.commando import command
 import os
 import yaml
 
-QUANT_DIR=os.path.expanduser("~/.quant")
+QUANT_DIR=os.path.expanduser("c:\users\jshapiro\.quant")
 
 @command("config")
 def getConfig():

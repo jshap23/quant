@@ -25,6 +25,8 @@ class Hold(Strategy):
     makes no trades....ever...for any reason.
     """
     def evaluate(self, date, position, market):
+        print "Hold"
         return () # There are never any orders from this strategy
+
 
 CLAZZ = Hold
